@@ -280,7 +280,7 @@ public async Task Agent_GeneratesValidCode()
     {
         AgentsPath = "path/to/agents",
         ApiKey = "test-key",
-        ModelName = "claude-3-7-sonnet-20250219"
+        ModelName = "claude-sonnet-4-6"
     };
 
     var agent = new YourCustomAgent(config);

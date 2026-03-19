@@ -76,7 +76,7 @@ DataTransferHarness/
    {
      "Claude": {
        "ApiKey": "sk-ant-your-actual-api-key-here",
-       "Model": "claude-3-7-sonnet-20250219",
+       "Model": "claude-sonnet-4-6",
        "MaxTokens": 4096
      },
      "Paths": {
@@ -117,8 +117,8 @@ All configuration is managed through `appsettings.json`:
 
 ### Claude Settings
 - `Claude:ApiKey` (required) - Your Anthropic API key
-- `Claude:Model` (required) - Model to use (default: `claude-3-7-sonnet-20250219`)
-  - For agentic flows, use: `claude-3-7-sonnet-20250219` (best for complex reasoning)
+- `Claude:Model` (required) - Model to use (default: `claude-sonnet-4-6`)
+  - For agentic flows, use: `claude-sonnet-4-6` (best for complex reasoning)
 - `Claude:MaxTokens` (optional) - Max tokens for response (default: `4096`)
 
 ### Path Settings
